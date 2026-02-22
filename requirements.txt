@@ -1,0 +1,15 @@
+# Core Quantum SDK (v2.3+ for 2026 stability)
+qiskit>=2.3.0
+qiskit-aer>=0.17.2
+
+# Visualization & Notebook Support
+matplotlib>=3.8.0
+pylatexenc>=2.10
+qiskit[visualization]
+
+# Numerical Analysis & Verification
+numpy>=1.26.0
+scipy>=1.12.0
+
+# IBM Cloud Connectivity (Optional but recommended for real hardware)
+qiskit-ibm-runtime>=0.45.0
